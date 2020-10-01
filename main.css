@@ -1,0 +1,72 @@
+#titulos {
+    text-align: center;
+    padding: 3em;
+}
+
+#navbar ul{
+    list-style-type: none ;  
+    text-align: left;
+ } 
+
+ #navbar li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ } 
+
+ #cuerpo {
+    max-width: 100%;
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+ }
+
+#sobremi {
+
+    text-align: justify;
+    padding: 3em;
+}
+
+
+img { max-width: 100%};
+
+#footer ul{
+    padding: 3em;
+    list-style-type: none ;  
+    
+
+}
+#footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+#map{
+    max-width: 100%;
+    padding: 3em;
+    text-align: center;
+
+}
+#blog{
+    max-width: 100%;
+    padding: 3em;
+    text-align: center;
+
+}
+#curriculum{
+    max-width: 100%;
+    padding: 3em;
+    text-align: left;
+
+}
+#curriculum>h1{
+    text-align: center;
+}
+div:hover {
+    border: 1px solid #f1c40f;
+ }
